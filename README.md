@@ -45,9 +45,9 @@
 
 ## 📸 Screenshots
 
-| BMI Calculator | BMR Calculator | Ideal Weight |
+| BMI Calculator |  Ideal Weight | BMR Calculator |
 |----------------|----------------|--------------|
-| ![29e9c3b2-1edd-4ad8-9724-2bfa772e4196](https://github.com/user-attachments/assets/9e0b9da6-eae3-44ba-90a1-0256dcd32565) | ![922547d0-c357-4762-b4af-4d59e9348879](https://github.com/user-attachments/assets/f068d9fe-a284-48f6-a16d-2bfbe31e8d38) | ![a901a248-092d-401e-a31e-a669c74dafea](https://github.com/user-attachments/assets/968246b9-490a-45ca-9bec-abbd52436c1d) |
+| ![29e9c3b2-1edd-4ad8-9724-2bfa772e4196](https://github.com/user-attachments/assets/9e0b9da6-eae3-44ba-90a1-0256dcd32565)  | ![a901a248-092d-401e-a31e-a669c74dafea](https://github.com/user-attachments/assets/968246b9-490a-45ca-9bec-abbd52436c1d) | ![922547d0-c357-4762-b4af-4d59e9348879](https://github.com/user-attachments/assets/f068d9fe-a284-48f6-a16d-2bfbe31e8d38) |
 
 > 💡 Replace `screenshot1.png`, `screenshot2.png`, and `screenshot3.png` with your actual screenshot paths or URLs.
 
@@ -74,15 +74,19 @@ A ready-to-install APK file is available for testing and usage.
 
 ### Setup
 
-```bash
-# Clone the repository
-git clone https://github.com/MukeshVelmurugan/BMI-BMR-IW-Calculator.git
-cd BMI-BMR-IW-Calculator
+##### Clone the repository
+``` npm
+https://github.com/MukeshVelmurugan/FitMate-Health.git
+cd FitMate-Health
+```
 
-# Install dependencies
+##### Install dependencies
+```
 npm install
+```
 
-# Start the development server
+##### Start the development server
+```
 npx expo start
 ```
 
@@ -90,7 +94,11 @@ npx expo start
 To generate an .apk file:
 ```
 npx expo install eas-cli
+```
+```
 eas build:configure
+```
+```
 eas build --platform android
 ```
 Once the build is complete, download the APK from the Expo build URL.
